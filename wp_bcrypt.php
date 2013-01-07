@@ -18,7 +18,7 @@ class WpBcrypt {
     global $wp_hasher;
 
     // Replace the global wp_hasher class with one that we like.
-    $wp_hasher = new PasswordHash(8, false);
+    $wp_hasher = new PasswordHash(10, false);
 
     // Add a filter to change passwords when people log in.
     add_filter('check_password', array($this,'check_password'), 10, 4);
