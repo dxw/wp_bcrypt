@@ -1,13 +1,13 @@
 === Plugin Name ===
 Contributors: harrym
-Tags: security
+Tags: security, passwords
 Requires at least: 3.4
-Tested up to: 3.4
-Stable tag: 0.1
+Tested up to: 3.9.1
+Stable tag: 1.0.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP bcrypt switches WordPress's password hashes from MD5 to bcrypt, making it harder for them to be brute-forced if they are leaked.
+wp bcrypt switches WordPress's password hashes from MD5 to bcrypt, making it harder for them to be brute-forced if they are leaked.
 
 == Description ==
 
@@ -25,11 +25,7 @@ account that you want to log in with.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the `wp_bcrypt` to the `/wp-content/plugins/` directory
+1. Upload the `wp-bcrypt` directory to the `wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
@@ -47,5 +43,8 @@ made using MD5.
 
 == Changelog ==
 
-= 0.1 =
+= 1.0.1 =
+* Readme improvements
+
+= 1.0.0 =
 * Initial release

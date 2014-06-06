@@ -1,11 +1,11 @@
 <?php
 /**
-  * Plugin Name: WP bcrypt
-  * Plugin URI:  http://dxw.com/wp-bcrypt
-  * Description: WP bcrypt switches WordPress's password hashes from MD5 to bcrypt, making it harder for them to be brute-forced if they are leaked.
+  * Plugin Name: wp-bcrypt
+  * Plugin URI:  http://wordpress.org/plugins/wp-bcrypt/
+  * Description: wp-bcrypt switches WordPress's password hashes from MD5 to bcrypt, making it harder for them to be brute-forced if they are leaked.
   * Author:      dxw
   * Author URI:  http://dxw.com
-  * Version:     1.0
+  * Version:     1.0.1
   * Licence:     GPL2
   *
   * For more information, consult readme.txt
