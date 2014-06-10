@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: harrym
+Contributors: harrym, dxw
 Tags: security, passwords
 Requires at least: 3.4
 Tested up to: 3.9.1
